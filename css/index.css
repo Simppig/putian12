@@ -1,0 +1,211 @@
+body,
+ul,
+li,
+p,
+h1.h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 1.05rem;
+    display: flex;
+}
+
+.nav-list {
+    width: 0.7rem;
+    height: 0.75rem;
+    background-color: #244497;
+    margin-left: 0.24rem;
+    padding-top: 0.3rem;
+}
+
+.nav-item {
+    width: 0.4rem;
+    height: 0.05rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 0.07rem;
+}
+
+.nav-logo {
+    width: 3.74rem;
+    height: 0.82rem;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 3.74rem;
+    height: 0.82rem;
+    padding-bottom: 0.11rem;
+}
+
+.nav-tel {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.28rem;
+    margin-right: 0.2rem;
+}
+
+.nav-tel img {
+    width: 100%;
+    display: block;
+}
+
+.banner-box {
+    width: 100%;
+    height: auto;
+}
+
+.banner-box img {
+    width: 100%;
+}
+
+
+/* sort */
+
+.sort-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sort-list li {
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #8c8989;
+    margin-top: -1px;
+    margin-left: -1px;
+    width: calc(98% / 3);
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.sort-list li img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.sort-list li span {
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.last-li {
+    font-size: 18px;
+    background-color: #244497;
+}
+
+.last-li div {
+    width: 1.5rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+
+/* sort */
+
+
+/* 特色 */
+
+.spe-title {
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .32rem;
+    color: #1a1a1a;
+    text-indent: .14rem;
+    border-left: .06rem solid #244497;
+    margin: 3.6%;
+}
+
+.spe-item img {
+    width: 100%;
+}
+
+
+/* 特色 */
+
+
+/* register */
+
+.register {
+    margin: 4%;
+}
+
+.reginner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right {
+    width: 93%;
+    height: 0.7rem;
+    margin: 4%;
+}
+
+.reginner input {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    color: #b5b5b5;
+    font-size: 0.26rem;
+    padding: 0 0.7rem 0 0.25rem;
+    overflow: hidden;
+}
+
+.right select {
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    color: #b5b5b5;
+    font-size: 0.26rem;
+    padding: 0 0.7rem 0 0.25rem;
+}
+
+.tables {
+    width: 6.25rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.tables button {
+    background: #244497;
+    color: #fff;
+    width: 2.79rem;
+    height: 0.74rem;
+    border: none;
+    border-radius: 0.05rem;
+}
+
+.tables button:nth-child(2) {
+    background: #eff9ff;
+    color: #244497;
+}
+
+
+/* register */
