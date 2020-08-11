@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医院概况</title>
+    <link rel="stylesheet" href="../css/rem.css">
+    <script src="../js/zepto.js"></script>
+    <script src="../js/hammer.js"></script>
+    <script src="../js/zepto.hammer.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/page2.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="nav">
+        <div class="nav-list">
+            <div class="nav-item"></div>
+            <div class="nav-item"></div>
+            <div class="nav-item"></div>
+        </div>
+        <div class="nav-logo">
+            <img src="../imgs/nav-logo.png" alt="">
+        </div>
+        <div class="nav-tel">
+            <img src="../imgs/nav-tel.png" alt="">
+        </div>
+    </div>
+    <div class="nav2-list">
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-1.png" alt="">
+            <div>医院概况</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-2.png" alt="">
+            <div>新闻动态</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-3.png" alt="">
+            <div>科室导航</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-4.png" alt="">
+            <div>专家团队</div>
+        </a>
+
+    </div>
+    <div class="nav2-list">
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-5.png" alt="">
+            <div>预约挂号</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-6.png" alt="">
+            <div>联系我们</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-7.png" alt="">
+            <div>用户中心</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-8.png" alt="">
+            <div>康复百科</div>
+        </a>
+
+    </div>
+    <script>
+        $(".nav-list").hammer().bind("tap", function() {
+            $(".nav2-list").css("display", "flex")
+        });
+    </script>
+    <!-- nav -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner-box">
+            <img src="../imgs/banner-2.jfif" alt="">
+        </div>
+    </div>
+    <!-- banner -->
+    <!-- main -->
+    <div class="main">莆田瑞斯康复医院
+        <img src="../imgs/page2.jpg" alt="">
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <img src="../imgs/footer.jfif" alt="">
+        <div class="footer-list">
+            <a href=""><img src="../imgs/footer-list-1.png" alt="">网站首页</a>
+            <a href=""><img src="../imgs/footer-list-2.png" alt=""><span>在线挂号</span></a>
+            <a href=""><img src="../imgs/footer-list-3.png" alt=""><span>咨询电话</span></a>
+            <a href=""><img src="../imgs/footer-list-4.png" alt=""><span>添加微信</span></a>
+            <a href=""><img src="../imgs/footer-list-5.png" alt=""><span>收费咨讯</span></a>
+        </div>
+    </div>
+    <!-- footer -->
+</body>
+
+</html>

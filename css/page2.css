@@ -1,0 +1,12 @@
+.main {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-top: 0.38rem;
+    font-size: 0.3rem;
+    line-height: 1.7;
+}
+
+.main img {
+    width: 100%;
+}

@@ -10,6 +10,7 @@
     <script src="../js/hammer.js"></script>
     <script src="../js/zepto.hammer.js"></script>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
 </head>
 
 <body>
@@ -27,7 +28,43 @@
             <img src="../imgs/nav-tel.png" alt="">
         </div>
     </div>
+    <div class="nav2-list">
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-1.png" alt="">
+            <div>医院概况</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-2.png" alt="">
+            <div>新闻动态</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-3.png" alt="">
+            <div>科室导航</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-4.png" alt="">
+            <div>专家团队</div>
+        </a>
+
+    </div>
+    <div class="nav2-list">
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-5.png" alt="">
+            <div>预约挂号</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-6.png" alt="">
+            <div>联系我们</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-7.png" alt="">
+            <div>用户中心</div>
+        </a>
+        <a href="../html/page2.html"><img src="../imgs/nav2-list-8.png" alt="">
+            <div>康复百科</div>
+        </a>
+
+    </div>
+    <script>
+        $(".nav-list").hammer().bind("tap", function() {
+            $(".nav2-list").css("display", "flex")
+        });
+    </script>
     <!-- nav -->
+
     <!-- banner -->
     <div class="banner">
         <div class="banner-box">
@@ -79,48 +116,53 @@
     <!-- 特色 -->
     <div class="spe-item">
         <div class="spe-title">特色病种</div>
-        <img src="../imgs/spe-1.png" alt="">
-        <div>
-            <div class="spe-item">
-                <div class="spe-title">特色科室</div>
-                <img src="../imgs/spe-2.png" alt="">
-                <div>
-                    <div class="spe-item">
-                        <div class="spe-title">医院环境</div>
-                        <img src="../imgs/spe-3.jfif" alt="">
-                        <div>
-                            <div class="spe-item">
-                                <div class="spe-title">专家团队</div>
-                                <img src="../imgs/spe-4.png" alt="">
-                                <div>
-                                    <!-- 特色 -->
-                                    <!-- register -->
-                                    <div class="register">
-                                        <img src="../imgs/reg-1.jfif" alt="">
-                                    </div>
-                                    <div class="reginner">
-                                        <form action="">
-                                            <div class="right"><input type="text" placeholder="请输入您的姓名"></div>
-                                            <div class="right"><input type="text" placeholder="请输入您的电话"></div>
-                                            <div class="right">
-                                                <select name="" id=""><option value="">---请选择病种---</option>
-                                                <option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option></select>
-                                            </div>
-                                            <div class="right">
-                                                <input type="text" placeholder="年/月/日" readonly="readonly" readonly="readonly" id="datehandel">
-                                            </div>
-                                            <div class="tables">
-                                                <button type="submit">提交</button>
-                                                <button type="reset">重置</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- register -->
-                                    <!-- footer -->
-                                    <div class="footer">
+        <img src="../imgs/spe-1.png" alt=""></div>
+    <div class="spe-item">
+        <div class="spe-title">特色科室</div>
+        <img src="../imgs/spe-2.png" alt=""></div>
+    <div class="spe-item">
+        <div class="spe-title">医院环境</div>
+        <img src="../imgs/spe-3.jfif" alt=""></div>
+    <div class="spe-item">
+        <div class="spe-title">专家团队</div>
+        <img src="../imgs/spe-4.png" alt=""></div>
 
-                                    </div>
-                                    <!-- footer -->
+
+    <!-- 特色 -->
+    <!-- register -->
+    <div class="register">
+        <img src="../imgs/reg-1.jfif" alt="">
+    </div>
+    <div class="reginner">
+        <form action="">
+            <div class="right"><input type="text" placeholder="请输入您的姓名"></div>
+            <div class="right"><input type="text" placeholder="请输入您的电话"></div>
+            <div class="right">
+                <select name="" id=""><option value="">---请选择病种---</option>
+                <option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option><option value="骨/脊柱康复科">骨/脊柱康复科</option></select>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="年/月/日" readonly="readonly" readonly="readonly" id="datehandel">
+            </div>
+            <div class="tables">
+                <button type="submit">提交</button>
+                <button type="reset">重置</button>
+            </div>
+        </form>
+    </div>
+    <!-- register -->
+    <!-- footer -->
+    <div class="footer">
+        <img src="../imgs/footer.jfif" alt="">
+        <div class="footer-list">
+            <a href=""><img src="../imgs/footer-list-1.png" alt="">网站首页</a>
+            <a href=""><img src="../imgs/footer-list-2.png" alt=""><span>在线挂号</span></a>
+            <a href=""><img src="../imgs/footer-list-3.png" alt=""><span>咨询电话</span></a>
+            <a href=""><img src="../imgs/footer-list-4.png" alt=""><span>添加微信</span></a>
+            <a href=""><img src="../imgs/footer-list-5.png" alt=""><span>收费咨讯</span></a>
+        </div>
+    </div>
+    <!-- footer -->
 
 
 </body>
